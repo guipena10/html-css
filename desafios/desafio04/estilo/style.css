@@ -77,19 +77,19 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url(imagens/wp4922875.jpg);
+    background-image: url(../imagens/wp4922875.jpg);
     background-position: top center;
     background-size: cover;
 }
 
 section#img02 {
-    background-image: url(imagens/wp4922945.jpg);
+    background-image: url(../imagens/wp4922945.jpg);
     background-position: center center;
     background-size: cover;
 }
 
 section#img03 {
-    background-image: url(imagens/2yj2ank7lr511.png);
+    background-image: url(../imagens/2yj2ank7lr511.png);
     background-position: center center;
     background-size: cover;
 }
