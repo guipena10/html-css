@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsam cum aliquam dolorem natus, est distinctio obcaecati ducimus dignissimos. Voluptate quidem qui non asperiores aspernatur maiores natus consectetur amet a.</p>
+    
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta atque consequatur asperiores nam minima, nemo ab labore sequi officia repudiandae? Odio nulla eaque itaque esse voluptate voluptatem. Illum, eveniet minima.</p>
+
+    <iframe srcdoc="<h1> Escolha uma das opções acima </h1><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta atque consequatur asperiores nam minima, nemo ab labore sequi officia repudiandae? Odio nulla eaque itaque esse voluptate voluptatem. Illum, eveniet minima.</p> <img src='imagens/pexels-valdemaras-d-1647962.jpg' >" id="tela" name="frame">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, vero. Nostrum omnis laborum, facere numquam adipisci rem! Excepturi, cumque dicta ad amet at consectetur animi dolore, odio cum eos explicabo!</p>
+</body>
+</html>
